@@ -1,0 +1,13 @@
+// Place all the styles related to the users_controller controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+form{
+    background-color: gray;
+    padding: 30px;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+
+    border-radius: 10px;
+}
