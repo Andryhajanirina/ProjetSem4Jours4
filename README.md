@@ -5,4 +5,7 @@
 
 **A mon correcteur, soyez clément svp car j'étais seule à faire ce projet**
 
+## PROCEDURE
+* Avant de lancer le programme, veuillez faire un **rails db:migrate**
+
 Cordialment et bonne correction
