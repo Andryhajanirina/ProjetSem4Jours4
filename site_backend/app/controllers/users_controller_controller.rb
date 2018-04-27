@@ -21,4 +21,14 @@ class UsersControllerController < ApplicationController
           redirect_to home_path
         end
       end
+
+    def delete
+        if params['id_user'].to_i != 0 && params['id_user'].to_i != ""
+          @user = User.find(params['id_user'].to_i)
+          @user.destroy
+          redirect_to home_path
+        else
+          redirect_to home_path
+        end
+    end
 end
